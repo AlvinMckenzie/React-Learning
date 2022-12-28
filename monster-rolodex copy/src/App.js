@@ -42,13 +42,6 @@ const App = () => {
     setSearchField(searchFieldString)
   }
 
-  // const filteredMonsters = () => {
-  //   if(monsters){ 
-  //   const filtered = monsters.filter((monster) => {
-  //         return monster.name.toLocaleLowerCase().includes(searchField)})
-  //         return filtered}
-  // };
-
   return <div className="App">
     <h1 className='app-title'>Monsters Rolodex</h1>
     <SearchBox 
